@@ -36,6 +36,7 @@ class ProductViewSet(ModelViewSet):
     
 
 class ProductImageViewSet(ModelViewSet):
+    permission_classes = [IsAdminOrReadOnly]
     serializer_class = PRoductImageSerializer
 
     def get_serializer_context(self):

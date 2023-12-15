@@ -9,9 +9,11 @@ django-rest-framework = "*"
 djoser = "*"
 djangorestframework-simplejwt = "*"
 django-filter = "*"
-drf-nested-routers = "*"
 psycopg = "*"
 pillow = "*"
+drf-nested-routers = "*"
+djangorestframework = "*"
+markdown = "*"
 
 [dev-packages]
 
